@@ -9,3 +9,32 @@
 
    We'll write styles here starting Monday.
    ========================================================== */
+body {
+    font-family: courier, monospace;
+    background-color: rgb(252, 197, 206);
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px;
+    
+}
+a {
+    color: rgb(255, 0, 140);
+    text-decoration: double;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(252, 249, 251);
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(250, 249, 249);
+}
+:root {
+    --main-bg-color: rgb(252, 197, 206);
+    --main-font-color: rgb(252, 249, 251);
+    --link-color: rgb(255, 0, 140);
+}
+a:hover {
+    color: rgb(253, 253, 253);
+    text-decoration-color: rgb(7, 6, 6);
+    text-decoration-style: underline overline wavy rgb(17, 17, 19);
+    text-decoration-thickness: 10px;
+}
